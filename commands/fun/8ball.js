@@ -13,6 +13,7 @@ module.exports={
                 "Definetly",
                 "Absoloutely",
                 "Not in a million years"
+                "Why are you asking anyway?"                
             ]
             let response = responses[Math.floor(Math.random()*(responses.length)-1)]
             let Embed = new MessageEmbed()
